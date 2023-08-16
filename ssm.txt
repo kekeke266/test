@@ -1,0 +1,9 @@
+dao层，service层，mapper层，view，controller层。
+dao层：可定义实体类，定义setget（基础），对应数据库中的某个表里的对象eg：username，age，password
+service：业务逻辑接口（有时和dao层写的东西一样）；serviceImp：定义具体业务逻辑代码
+mapper：写的是sql语句（sql写在xml里）
+controller：负责请求转发，接收页面过来的参数，传给service处理，接到返回值，并再次传给页面。
+entity（POJO）：定义实体类。
+
+
+//ideal的项目的路径中不能有空格和中文符号
